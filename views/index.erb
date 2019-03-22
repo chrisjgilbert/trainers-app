@@ -1,0 +1,11 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trainers App</title>
+</head>
+<body>
+  <% @trainers.each do |trainer| %>
+    <li><%= trainer.name %> : <%= trainer.price %></li>
+  <% end %>
+</body>
+</html>

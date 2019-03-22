@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2019_03_22_124948) do
 
   create_table "trainers", force: :cascade do |t|
     t.string "name"
-    t.integer "price"
+    t.string "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
